@@ -1,7 +1,7 @@
 import requests
 
-url = 'http://178.62.74.235:32263/login'
-file_path = '/media/mkuser1/hdd/Nextcloud/kdrive/SOV/SocialSec/ds/practice/HackTheBox/Challenges/Web/web_phonebook/password_chars.txt'
+url = 'http://xx.xx.xx.xx/login'
+file_path = '/path/to/password_chars.txt'
 nextchar = ''
 
 with open(file_path, 'r') as file:
