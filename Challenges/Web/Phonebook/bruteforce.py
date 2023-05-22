@@ -29,7 +29,6 @@ while True:
             else:
                 print(f'Guess for {character} failed')
                 failed_attempt+=1
-                print(failed_attempt)
         
         if failed_attempt == line_count:
             break
