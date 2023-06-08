@@ -2,7 +2,7 @@ import requests
 import json
 import threading
 
-base_url = 'http://134.209.176.83:32439'                # Challenge link provided by HTB
+base_url = 'http://x.x.x.x:port'                # Challenge link provided by HTB
 purchase_url = f"{base_url}/api/purchase"               # Purchase API endpoint
 coupon_url = f"{base_url}/api/coupons/apply"            # Coupon apply API endpoint
 headers = {"Content-Type": "application/json"}          # POST request accepts json data
